@@ -1,0 +1,15 @@
+name: OGOP
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - numpy
+  - open3d
+  - pip
+
+  - pip:
+      - ipywidgets
+      - pye57
+      - trimesh
